@@ -1,0 +1,67 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<ul class="taxonomy__index">
+  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% for year in postsInYear %}
+    <li>
+      <a href="#{{ year.name }}">
+        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% for year in postsByYear %}
+  <section id="{{ year.name }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ year.name }}</h2>
+    <div class="entries-{{ entries_layout }}">
+      {% for post in year.items %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">{{ page.author }}</span>
+        </span>
+      {% endif %}</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <!-- COMMENTS START -->
+  <div id="hyvor-talk-view"></div>
+	<script type="text/javascript">
+	    var HYVOR_TALK_WEBSITE = YOUR_WEBSITE_ID; // DO NOT CHANGE THIS
+	    var HYVOR_TALK_CONFIG = {
+	        url: false,
+	        id: false
+	    }
+	</script>
+	<script type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
+  <!-- COMMENTS END -->
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
