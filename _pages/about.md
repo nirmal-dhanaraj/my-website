@@ -12,4 +12,8 @@ He has been serving customers in Australia,USA, Canada, and APAC regions. In his
 
 Nirmal is proficient in CyberArk PAM, Azure & Sailpoint Identity & Access Management and implemented Identity & security solution for various organizations across the world.
 
+
+Nirmal is also a CyberArk Guardian and one of the leading contributors in CyberArk Technical forum.
+
+
 Contact me on [LinkedIn](https://linkedin.com/in/nirmalkumar-dhanaraj-5b478716){:target="_blank"}  to discuss opportunities.
