@@ -1,0 +1,785 @@
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:03:57","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010096","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:03:57","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:03:57","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"fd23de0fdb11e0104d54560868961930","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : ODk2OWEwZDQtMzljNy00YzEwLTk4ZmMtYzczYmY3NmY0OGIwO0FCMDA5OTU0NDE3QURCODk7MDAwMDAwMDJBOTZGMThBQTFBMzg4MjI3QUM0MEVEQ0QwQzI2NERBNzMyNjYzRjRBMkIwMDcyNUMxNUU3NDVCRTZDRDA1MEQ2MDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : ZWY3NzNkMGYtNmU0Zi00ZTM1LThjYjktY2NjMjY5YTE5M2E1OzNGQzU3QkUxMzRCQTEwMkE7MDAwMDAwMDI5OEQzNkIzRDI5QTY0QzNCNzM3RkVCMUEyRTkyNjRCMTIyRUIwRTQ2ODRCQzgxNjcwMTBCOEZGQzlCNUE4NTZDMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:03:56 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:04.080  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : ZDU5MGEyY2QtODI5Yy00NGJhLWE4YjItNTIwZGExY2UyNmY3OzgyNENFMjMzOTdERTdDNzE7MDAwMDAwMDJDNEVBMDNCRjM0RTE3Mzg0MjhBNzE2NjMwMjgzNzBFNjQ0MkFEOTMzMDEwRTBEQjI5N0RDNkUyQTNDNURBRTUwMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : M2NlZmU2ZDgtOTlmYS00MmQ3LWJmZTctZWJmMjYzYzgyMGVkO0IwMjkxRDlBQ0UyNDU1ODQ7MDAwMDAwMDIxN0I0RkRGM0I5MTMxQTU2NjIxMEE1NUFGNkVDQkE1ODI4RThGMUQ5RjI4RkU3QzM3QzFGQjhEMkQ5QjFFMkM3MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : Mjg5NDgyMTAtM2ZlNy00ZGEyLWJjYjMtMjE0MGNjNGFmOWFmO0VCM0M1MEIyMzYyQTdGOUU7MDAwMDAwMDIyMzZBQzNEOUVERkMxRDQ5NUE5N0IxRDI3RUIwQUZFMUNFNjVBNjYwNjIzNEZCQjRCRjgwOUEwQjI3RDIxNkEyMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : YmM2MmM4MzItNzQyOC00MmE5LTllYjYtNzc0OTRmNjE1Mjk3OzcxOUE1MzM1MTJBMTIzNTQ7MDAwMDAwMDIyNjk0MzgyREE5N0M2MjVBQkU0ODFBMERGM0RENjBENTNCRTE1QTgzN0EyQTY3RjEyRTdFOUFFMEY2MTcyNjdBMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:04","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010097","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:04","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:04","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"e323de0fdb11e0104d5456086896197a","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : NWI5MzRiYmEtY2RjMi00ZDI0LWJmNWItMDRiNmZjMTMyNjkzO0IyNDdGRUUxNjE4MUFFMEI7MDAwMDAwMDJCM0U4MDAxN0E4MDZDQ0RENDMxQjIyMkY5RTlDNjEwNDY0MzlGNzA1NTk5MzYxMEU5QUIzNzRCQjI4OEM4RDgzMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : ZDU5MGEyY2QtODI5Yy00NGJhLWE4YjItNTIwZGExY2UyNmY3OzgyNENFMjMzOTdERTdDNzE7MDAwMDAwMDJDNEVBMDNCRjM0RTE3Mzg0MjhBNzE2NjMwMjgzNzBFNjQ0MkFEOTMzMDEwRTBEQjI5N0RDNkUyQTNDNURBRTUwMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:03 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:10.723  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : ZTFmNzZjMDYtMmRjMS00MzgzLTkyOWItYjQ5ZjJjZWIxOWQxOzYyM0FENUNGRThFMUQyNjQ7MDAwMDAwMDJERjA4MTBGREY3NzUwMDIwQThENEJERDU0NzFERUI1MDM4NURCMEYwRDM5QjM3NTRDREU0M0Y1NEZGQ0Y4MTFDMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : NTExODJjM2ItNDYzYy00MTA3LWE2ZTEtMjc5ZDNiZTlkNDhmO0NGNjgwMEVBOEI0MDM0MTE7MDAwMDAwMDI1Rjc0OTFDRjM5MEJERjU1MjdCMEQ0MjM4M0Y0RkU5NEM4NkUzODJFNTQ5QTExRjQzMEFFNDM0OTk4ODExNkQxMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : MTRlZDNjOTItZmQ3MC00MGQwLWFkN2EtOGNlNWM4ZGM4MTMyO0Y4NEM1RjMwMTc5MDRGQzI7MDAwMDAwMDI4RkExRTA3MzdDNjE2Mjg4Rjg2MkQ5OUFBQ0U2MjJBRUFDMDA5NEY2NUJEQkYxMDYzRjBBNjFGMURCMkJEOTEwMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : ZGE2NmNmNjUtMTgxOC00M2ZkLTgzMjctMjVmNDdiNDJjYTc0OzA4MTk3QzUzRTE1QTE2NUI7MDAwMDAwMDJEMUM4NDBGQTk2Qjg4QzZFREI4ODUyNTdENzg5RTYxMDk2REQwMjQzN0NDQzFGRkIwRDU5NUMwNTlFOTBBRDc4MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:11","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010098","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:11","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:11","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"5d33de0fdb11e0104d54560868961934","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : OTRlMzgzY2ItZjkyOC00MmUzLWIwMjktYjFhOTFkYmE3MTMzOzFCQTBBMkFBNUEyNDFCQjM7MDAwMDAwMDI3RTZDOUVDRTdBRkYzQzU0Q0ExQzFDRDY4RTFFNjY5Qjg1MjI3NDgzMEY1NjQ2NTc5MUQ0MzA1QUIwNUFFQTYwMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : ZTFmNzZjMDYtMmRjMS00MzgzLTkyOWItYjQ5ZjJjZWIxOWQxOzYyM0FENUNGRThFMUQyNjQ7MDAwMDAwMDJERjA4MTBGREY3NzUwMDIwQThENEJERDU0NzFERUI1MDM4NURCMEYwRDM5QjM3NTRDREU0M0Y1NEZGQ0Y4MTFDMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:09 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:17.355  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : YjJmODI5MWQtZTEyZS00ZGFmLWI3OGYtM2Q1ZGY0YjExNjM2O0UwODY2MDhGMjg1NTMxRkM7MDAwMDAwMDI4Q0I2RkQwN0Y3MzVCRThFNDUxRjJFMkU5NjcxQzMzRjYyNUE4QzU0MzRBQzAyQjcyODQ3MDk2QzYxMTg0NTA3MDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : ZWNiMzA5YjItMzU3NC00YzExLWExNjgtZDY3YWZhMmFlOTdkOzBDNzAzOTIwNDUwNkY2MEU7MDAwMDAwMDIxQTQzNzIzREMyNTMyRjgzQjY0NDE5QTg1QkU0QzM3RTE0QjcyM0JGM0E2MEVCMDJGNEM3MDU2RjZCMjNFOUM5MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : YTQxMmU0YWYtMjRhZS00YjJmLWI2NjAtMjM1MjQ5NTZlNjUyOzE0REFGQTdFNTgxRDg1Mzg7MDAwMDAwMDI3M0IxODdDRUZGNzc1OTlDQkQ1REIzRTQ3QTQzODYzNzY2MDUzQzU0RjYyNDE1MkQyQ0JBMDBFNjkyQTE4RTFFMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : YzliMGI2OWItNjRiOS00MGViLTkzYmItMzVmZmUwNWZhN2IyOzcxRjBCMkFDNkU2QjE1OEU7MDAwMDAwMDIwOTlFMkIwQTJBOUVBODJCNDFCNTFCMjZDRDc4MjEyRUFCQzhCNTBBNTE0Njk5QzhBRTFEMjYxNzlGQUNDMDREMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:17","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010099","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:17","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:17","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"ba339a0fdb11e0104d54560868961933","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : ODMxZjQ0NzctZmY4Mi00MWIyLTk4NWMtNDA0MTQ4ODk4NWI3OzA3QzhFMzM1MDc4OTU1MDc7MDAwMDAwMDJCQzY0MEFGQjU1MzRFMjJFMjk2RUUxRUU1NkM4MzEzMjIyNjM0REU5NkUzRTAzQjQ2MTgzOTZEMThBRDQ2RTIxMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : YjJmODI5MWQtZTEyZS00ZGFmLWI3OGYtM2Q1ZGY0YjExNjM2O0UwODY2MDhGMjg1NTMxRkM7MDAwMDAwMDI4Q0I2RkQwN0Y3MzVCRThFNDUxRjJFMkU5NjcxQzMzRjYyNUE4QzU0MzRBQzAyQjcyODQ3MDk2QzYxMTg0NTA3MDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:16 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:24.247  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : NzYwNTQ5MzYtZWY5Ni00MGZhLWExMmUtM2FiMGFmODg1MmY3OzdFQjUxRDJBMTA2QUZDRDk7MDAwMDAwMDJEOTcxNzk2NjE1MDIxQzc2MjdDMjc5RUI0MjIyNkRCODQ3NDRGNTg3MTg3QzY5RDlDRDc3MjQ3OTdERjNGMDIyMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : ZTUzYjU1YWMtNTE3Ny00NzFhLThkMTItYzk1NzdlYjRjMTQ1O0Q5RDY1ODNCOEIxMDgzN0M7MDAwMDAwMDIwMkY2M0QwQTJCNEJFRTE0RUZCOUI3RDNGRUI1ODQ2Q0EyNTJDNjExREQ4QTYxRTZGOUREN0Q0OTZCNzhFREVEMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : NmY5ZmU4YmYtOWRiZS00Nzg1LTk0YzEtZGQ4NmViNmI2ODczOzE5N0UxQkQ2MTM3MEIyNkI7MDAwMDAwMDIwM0E3RTZFN0M2QTdGMERDRTk0NzU0ODVCMDhCNDcxRkI4NDYwNDYyQUIxODNDNDc0OTQxM0E4NkI4NTcwMzQzMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : ZGU3MWRjYjEtZWY0Ny00MTA5LWEwZjktZWFjZTI3NjY5OWFhO0ZGNjRBRjEwNDkzM0IwQ0U7MDAwMDAwMDIxRThGOUU0OTQ3OTg1NUZCMUY1QzU1MzE1QUIyMTNCQUYwODEzNTk1N0RDRDBEMUIwQTEyNTg3N0Y2QjczQkU4MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:24","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010100","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:24","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:24","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"a843da0fdb11e0104d54560868961959","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : OTY2YjBiYzMtZjcxOC00Yzc4LTg1Y2ItZTJjMmZiZmY5MjJjO0QxQkIzNjY2NDgxOUEzNjI7MDAwMDAwMDIxNjU1OUQxRTI0QTMxMTI4OTgwMTMzNzVGMkFGNzEzMjg5OTVCNTMwRjVCMzY5MkQzQTcwQzE3NDI4MUREMTBDMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : NzYwNTQ5MzYtZWY5Ni00MGZhLWExMmUtM2FiMGFmODg1MmY3OzdFQjUxRDJBMTA2QUZDRDk7MDAwMDAwMDJEOTcxNzk2NjE1MDIxQzc2MjdDMjc5RUI0MjIyNkRCODQ3NDRGNTg3MTg3QzY5RDlDRDc3MjQ3OTdERjNGMDIyMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:23 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:30.906  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : NTNhNTI1OTItY2JiNy00MzgwLWIxMGYtZGM5MWE2YmNiMzZiOzgwNjcyMjdEMzcwNjVEMEM7MDAwMDAwMDJERkIwNTg5OUVFRjYzRDUwREFEMTlBODVCQTBBQzFCQjEyMEIzNTNCODBDNDNCN0IwOUJDMDlBMzBEOTg0NjA1MDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : YmQwYWUwODktODY4Yi00MGQ2LWIxNDUtNDFjNGRmYjc5MzA1OzhBNTJCRjFCRjA5QTRBODQ7MDAwMDAwMDI1NTE0OEQ1NzdFOEVBODJFRDM4NUY3OTY4RDYzRjU0M0Y4Mjc5OUM4QTkwN0NDNTVFNzBBMUM3QjVDRDZFM0ExMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : YmQ0MjRkMWEtNjA0Mi00NzQ4LWI2ZmMtMmExNDNlMTViNjI0OzFCMkFENjFFQTJFOTVBRkU7MDAwMDAwMDIxOUNFRDUyNEZGNTdDNDkwQjZEODA0RkFCQUExN0Q5RTI4MUJENEYxNzQ3OTJGQ0FERThBQkEzRTM4NzkzRDUwMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : MmJmMjQ4MmItMjQxMC00MTcxLTljZGEtOTUwYTQ4YjVlMTNjOzk4MDNCN0FCNDJCRDlDOEY7MDAwMDAwMDJCREE4MTVDQ0NDMzc5MEVDMkUwNDM1OUE0RjBFMDI3NTAyQTIxMDI2RUY2NkQxQTA3ODdGMTY4RUY5QTUyQTdGMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:31","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010101","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:31","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:31","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"8643524fdb11e0104d5456086896194f","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : YzYxY2QyOTUtNTc2Mi00YWE4LTliYmYtNzA0OTBiOGZmMmY4O0VCQTdDREMyODE5QjYwRkI7MDAwMDAwMDI5OEI5OUM4QUYwMkVCNzIxMTM1MzNBNTA5MEY0RDBGQzcxRTgwN0ZGRDFGMEUzNzg1QjNENEZGRDMwQTM5QzE2MDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : NTNhNTI1OTItY2JiNy00MzgwLWIxMGYtZGM5MWE2YmNiMzZiOzgwNjcyMjdEMzcwNjVEMEM7MDAwMDAwMDJERkIwNTg5OUVFRjYzRDUwREFEMTlBODVCQTBBQzFCQjEyMEIzNTNCODBDNDNCN0IwOUJDMDlBMzBEOTg0NjA1MDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:29 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:37.593  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : NzQyMTgyZWMtZmFhNy00ZjQyLTkzNTctY2RkMzIzNWFjOTJhOzgxNjdGNzFFNTRCRkUyNjY7MDAwMDAwMDI1QjlGOTNBRUFFRTE1QTRFQ0NCN0Y0OTJDQkM1NUI1MDZCQTQ0NTkyNDQ2REYyQjhENjUzQ0EwOTdEQTBCNUIyMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : NDNlODRiZWEtZjFmNy00NzUwLWIyN2EtZDdjMTdkMTNmMDNjO0NDOUNBRjM1MkEzQzYxRTA7MDAwMDAwMDIyRUZCMzFBNTExMkZFM0Q2N0E1Qzk5QkUxM0E3RUQzOTJFNjM4OERDQkVEQUZCQzQ3OEVFOTlBNTI5NUQ1OTdDMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : MDZjNGVjZTgtOGMyNC00NmU5LWJjMGItODM1OGEzMzUxNDg1OzM5ODU5NDJCQjdCMDdBMjI7MDAwMDAwMDI4QTg2RkYzM0Q5ODRCNzQzNDY1ODZDMjQ3RUNGMzNDQ0MwOUU2NEVGRDcwNUQ5M0YyMTE4MzZBNkIwRUQwNTFDMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : Mjg2YWEyMzUtMWJiZi00MTBhLTlhNzMtZWVmMGVjZjMxZTE4OzVDRTdFMTI5MzJCM0FCQTQ7MDAwMDAwMDI5RTk0MTI5NDI1MEQ5NDdGQjVFQ0JDMDk3QUY1MDI5MTUxMkVDMjY2MEI2QTVDQTU3MUQ3QjQ4N0YxMTRDRUIzMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:37","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010102","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:37","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:37","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"3b43da0fdb11e0104d5456086896195d","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : ZWMxMTRmMDEtNTgzMy00ZDI0LWE2OTMtMWQ5OTkxMTg1ODk3OzRFRUY2RTVENjQ3MjczMkY7MDAwMDAwMDIyQ0QxNjE3QkUwRDBGRTAxREZBRjBENEY0QTgwOTE4ODhCQzNBNzBEQ0VENjdFRTQ1RDlEMjRCNjg4OTM4NTQwMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : NzQyMTgyZWMtZmFhNy00ZjQyLTkzNTctY2RkMzIzNWFjOTJhOzgxNjdGNzFFNTRCRkUyNjY7MDAwMDAwMDI1QjlGOTNBRUFFRTE1QTRFQ0NCN0Y0OTJDQkM1NUI1MDZCQTQ0NTkyNDQ2REYyQjhENjUzQ0EwOTdEQTBCNUIyMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:36 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:44.275  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : ZTczNTQwMGEtNmY1My00ZGRiLTgxNTItNDBjNTA4NzZhMGQ3O0U2QTA3RTZBQ0ZFMzJFNjI7MDAwMDAwMDJEN0MyRUNDMjgxQUJGMkEyNEQzOTRBQ0RDMzZFNkExMzcwOUUxOEJBRUJGNjM5QzFBQzkwMzQ1MDEyRDY2QjI4MDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : NzVhMjYxZjMtNDNmNy00YmYyLTgxZjUtY2M4Nzc0YWNlMzFmOzEzQjRDMTI3Q0MzMTgyRDk7MDAwMDAwMDIwRkNCQjExQkNCOTVFOTBDNTk2M0I2MTk2ODFBOUVFODM5NUEzODNEQjJCRTlDQTZDRjFCQ0E3NERBNTNBNzkzMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : ZTUyOTI0OWYtNTcxOC00MTQ1LTgxMzAtYTM2ZTNhMjg1MzE2Ozg2MTIwREMzQ0M4MzJFN0M7MDAwMDAwMDIxQjA2NEMzNjg1MkNFQTk4NTcxQkEwMTg1NjI5ODE1QzI3Q0VGMkYyMjdGNDE2QzUyQTlDNUYyRDNEOUI4QTkyMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : ZTY1NjFkMzUtMjEwNC00OGRiLWIwOWEtNDAwYzlhN2UwMDI4O0YwNzlBMkQxRkIyRUM5OEU7MDAwMDAwMDJGNUY5MkJCRUVENzYyNUE3NkEzOEI1MUYxQzg2NUM2QUVBNTRBOEMxQjk1N0Q0NkVFOTkxMkVEMTk2NjhFMzk0MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:44","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010103","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:44","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:44","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"2553524fdb11e0104d54560868961953","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : M2FjNDY4YjEtYzMyNS00NmJiLWExNWYtMzBmMDE0YmRhNmZjOzc0MTdFQUY5NDIyMDE3RjM7MDAwMDAwMDJGOTY5N0QxNTQ0MkVEQTNDNzE4QUIxRUU2QzBBNDJENUU1QzFBRTZFREIzQUJDRkMyNjE3MTY0QTZGNTFEMUU0MDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : ZTczNTQwMGEtNmY1My00ZGRiLTgxNTItNDBjNTA4NzZhMGQ3O0U2QTA3RTZBQ0ZFMzJFNjI7MDAwMDAwMDJEN0MyRUNDMjgxQUJGMkEyNEQzOTRBQ0RDMzZFNkExMzcwOUUxOEJBRUJGNjM5QzFBQzkwMzQ1MDEyRDY2QjI4MDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:42 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:51.383  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : MGQ1Y2FmNTItZTBlNC00NDk2LThjN2ItNGU5YmNiNTk0ZmI2OzNFMkI2RDM4RjM2RkQ2MjQ7MDAwMDAwMDJBMURFQ0FCMkMwNzFFNkUzMDJCQUFENTI2RjgzRUY3RDg3M0EzNzIxMDE5NTA2QzVCNzE4NkI2Njc4MjFCMjVDMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : YWEyMzVhODQtNThkMC00ZTdmLTliZGYtZTI4YjIzODNiNTQ3OzYzQTg5QzJERjUzRkVCRjM7MDAwMDAwMDI0NzgxQjE0MEQwMDRCQzhEQjhCM0Q4NjNBOTA3NzBCMENCMENDNTk5RTIyQTJDNjlENUQyREMxRTY5MzY0MEZDMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : ODVkNTQ2NDUtNjQ4ZC00MGU0LTlmNDYtMzdmZDViY2QzYjJmO0MzQkVDOENGRTVCNEVGNEY7MDAwMDAwMDI1Rjk4QjI0QjQxRTUzRDQ0RkE0QjIxNjE3RTA3NDI5MDExRDBDQTA2RUVDM0I3RTJEQTJCQkI3OTAwRjhGMEU2MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : MTFlOWE4ODItYTc2NC00YjhhLTlmNzAtZDZmMzRhMjk4MDk1O0JFOThCRkU1RTVGMEEyQTE7MDAwMDAwMDJCMzlDNTNDRTYwNkMwMDBBMTQ5NjczNkUyQjkxQUJCQzk1OUVCQTVGRUFBMEYwQ0NBNkU4RjY0RjcyOUZFMzcxMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:51","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010104","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:51","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:51","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"4753924fdb11e0104d54560868961909","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : OWUxZTE1NDctY2FhMi00OTM2LTlkODAtNjI5ODU4YmNjN2RkOzIzNjI3OTc1QUYzNDdFOEQ7MDAwMDAwMDI3NERCN0QzNjlBNkM0QzJDNkRENTk4MkY3MEM3MDhGMzcxMzBFRUIwNkVBMzNFQkVDM0U4ODYwRDY0RDQ3NUUzMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : MGQ1Y2FmNTItZTBlNC00NDk2LThjN2ItNGU5YmNiNTk0ZmI2OzNFMkI2RDM4RjM2RkQ2MjQ7MDAwMDAwMDJBMURFQ0FCMkMwNzFFNkUzMDJCQUFENTI2RjgzRUY3RDg3M0EzNzIxMDE5NTA2QzVCNzE4NkI2Njc4MjFCMjVDMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:50 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:04:58.090  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : YTViOGI1NzctOTU1Yy00ODE5LTkxMDYtMzU4OGJlNzNhMTI0OzU1Rjk2NjA0NjgyNjBCNDg7MDAwMDAwMDI4RUY2Q0RBMzMwMDEwMUZERjY3RTY0Q0VDNkZCRDFDRjBGQkU0MDVBMjUxQ0Q3NUQxOTk5MUY2ODZCMDc1QzNEMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : MTM5MmQ1MzktNWQ0Ni00MTY5LThmMzMtNTZhNGNlNzY4NzUzOzYwODVBRjlCNDk3RTVCRjA7MDAwMDAwMDJGQ0QyQjNFQTlBMDJENkZBMURFN0RBRTc2NkExMjI0OTUzMTFGNDRFMkQ1MjdFRTE2QTlFMjVDQUYwOEEzRUVCMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : NTZlZTM0NWEtNDU3MC00NDZjLTlkZjQtOWE5Y2I1M2VjMWZkOzI0N0FDNDI2M0JCQzlFQTU7MDAwMDAwMDI2MTAzNzlFRTIwMDcyNTE2NTcyNkU1QzBGQUQ3RTIzRTNFQzY1MjI2RDlFNDIzMzE2NTBDREI5RTExNDg3OUZDMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : NmM0NzAyNWItZmIxOS00YmM0LTg3YzItNDQxYTZjNTNhMzExO0ZDNkFBQTUyOUM4OTUzRjI7MDAwMDAwMDI5ODAxQzBDN0E5OTZEOEI2NDJCRTUzQ0MyQTk2Q0RGM0Q2RDlDQUQyMTM2QzFGMEFGQjU3MzkzM0JGQTZDOUE2MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:04:58","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010105","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:04:58","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:04:58","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"b063524fdb11e0104d54560868961957","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : NjhiZDYyNTUtOTZjZi00OWE2LWE4OTAtM2YxZmQyMDkzMTBhOzBEQjAyRjk3OEJFNkVGOTk7MDAwMDAwMDI3NUI5RkJDMkFFNDMwRkM5MDkzNzI0REE2MTAxOUJEMjI3NDZEMTFBRDQ1NDJGNzUwODg2RjY1NzAzRkUzM0QxMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : YTViOGI1NzctOTU1Yy00ODE5LTkxMDYtMzU4OGJlNzNhMTI0OzU1Rjk2NjA0NjgyNjBCNDg7MDAwMDAwMDI4RUY2Q0RBMzMwMDEwMUZERjY3RTY0Q0VDNkZCRDFDRjBGQkU0MDVBMjUxQ0Q3NUQxOTk5MUY2ODZCMDc1QzNEMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:04:57 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:05:04.790  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : ZTU2MzdhNjQtZDNmZi00MTUyLTk3N2EtNGE0N2JjMDcyZTU5OzMzMTY2N0UwNkI3MTMwOEI7MDAwMDAwMDJFRjQ1M0Y4OERCOTBCMkNBODUxOEU1QzU0MEQ5NDQxMjY5QTg0QzVBMkQ2QzIwM0FGRjFFNzRFOTg0NTJBOTNEMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : ZWFmNDc3MjItYjJlYy00NWM1LWE1ZDItZGIyYzJmY2E4OWRkOzQ4QjFERTcxN0UzRUEyMTg7MDAwMDAwMDI0MENBRUZBOUQyN0RCNDBEQzlCODRBMTA0NjREQkNGMTg5QUIzNEREQjQ0MERCMDlFQjkzQ0QwMkI0NjAxNzEyMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : OTgwZWE0YWItMGZjMi00ZDJjLWJjY2UtNGFjZTgxNzlhNzZjO0Y0Njc1MkYxQkQ4QkU2MEE7MDAwMDAwMDJFOTA2MjQ3NzM1NjYzNjdBQTg0OUJDMUYzQUM4QjVFRDU4Q0VCMUZEMUJEQTcxRTk4NUM3QUM5NDJERkY4RjNFMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : N2ExYjc5MWYtZTM2ZS00MGY2LTlhYzUtNzdiMzUxOTBkZjQ4O0QyNTQ5RUY4QjRDQTQ2MDI7MDAwMDAwMDJFNUZBOEIzRThFOTM0QzBEMTkzMUU2QkVGQUJGNDEwQTQzOEQ0NzU2MTI5QTcxREI5QjFEMkRBN0NDMjlDMkU0MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:05:05","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010106","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:05:05","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:05:05","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"d263924fdb11e0104d5456086896190d","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : MjlkMjZmMzUtNDZkZC00YTJkLWE4ZGUtZGY1OTFhZDViNDE4OzhBOENGNEQwQUU5RkRENTM7MDAwMDAwMDJBM0I4Q0QyOTk0Qjc3RDZFOEFFMkZEREQ0NjM3MUM1REZCMTUxNkM1RTExNzY3MDE4NDhGRDBDODlCRjM4NTk5MDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : ZTU2MzdhNjQtZDNmZi00MTUyLTk3N2EtNGE0N2JjMDcyZTU5OzMzMTY2N0UwNkI3MTMwOEI7MDAwMDAwMDJFRjQ1M0Y4OERCOTBCMkNBODUxOEU1QzU0MEQ5NDQxMjY5QTg0QzVBMkQ2QzIwM0FGRjFFNzRFOTg0NTJBOTNEMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:05:03 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:05:11.393  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : NTlhZDVkZWQtZWFhNC00Zjk4LWI4NmYtYjliYjg5ZTJiNjhmO0RCN0Y2MzZEMUIwMDY5Njg7MDAwMDAwMDI1NUQ5REE2NkY1OTMzRThBQ0NEODU2QzU0MDhFMUUwQTREMDRDNDU2OUM4NEU5MjI4M0ZDOEIyRURCNUM0ODZCMDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : ZGJjMGIyN2EtZWRjYi00MjMxLThlNjItZWEyZjQ4YzAxNmFiO0I4M0ZDQTFBRTEzNkY4NzI7MDAwMDAwMDI0NDczQjNEQjk3QkQ2MDdCNDJFQTlFODg4REJCMzk3NTFCMDRBMEZCNTBFMzczOUYxNDU0OURGNDIzMUFDNTc4MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : NjAyYzM0NDctMTg1Ni00YTY4LWI1MmQtOTU1ZmQ0NTQyNTcwOzY5RjhBNDRDRURBOTdEMTI7MDAwMDAwMDIyNzY1MkYyRTVDRjUzNTg2NzhBMjA1ODRBMTZCODgwRjZFQ0VCNkM5QTc1NzdERkIxQjNFMTA3RDg5Q0Q5OTQ3MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : NDdmYTA5ZTgtODczNi00NDZjLTljYTEtZjJlY2RhOGZmNTVkO0FEMEREODZFMUY5MDIxMTc7MDAwMDAwMDJBMDhFRkFEQzNBNUU5MjZBQjRDRUU0MjMwQzEyQTAzQTYyNzRDNzA1MkNBNzVCQTMyOTQwRjBERDI2MkVENkRCMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:05:11","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010107","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:05:11","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:05:11","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"8073924fdb11e0104d545608689619d0","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : MDllYjM0N2YtMjRiMy00YjIxLWI3MWMtMDgxZmI1NTNjY2Q3O0VCMURCRTAwQzc2NDU1QkU7MDAwMDAwMDJEN0UyOUYwM0JDNEM4REMwQTc0QjhBMkJDMDVBMDRCNEFCQTMwMzlCODU2NUVDMzVCMTUyMTIwMjA1MEYyMTFBMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : NTlhZDVkZWQtZWFhNC00Zjk4LWI4NmYtYjliYjg5ZTJiNjhmO0RCN0Y2MzZEMUIwMDY5Njg7MDAwMDAwMDI1NUQ5REE2NkY1OTMzRThBQ0NEODU2QzU0MDhFMUUwQTREMDRDNDU2OUM4NEU5MjI4M0ZDOEIyRURCNUM0ODZCMDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:05:10 GMT", Content-Length:"721"]>
+========== ============= 
+2020-12-30 12:05:18.180  INFO 50064 --- [   scheduling-1] c.p.m.component.HealthScheduler          :  Health Check Starting 
+====================== 
+New Authentication Response 
+Token : ZmJkY2JmZDEtZGZlMi00NjkxLTllYTMtOGFlNWM3ZjI0NDlhOzEzQTUzREVCNDNBOUJFRUY7MDAwMDAwMDJBQjUwRTMxMkM5NUQ3NUM2RTk2RkNDN0Y2NkYxRUM1RUEzMjA0RUExNzRBNTdFMDFDNjMwQzFDODYyQ0VDRDM1MDAwMDAwMDA7
+Monitoring Summary Response Code : 200
+Monitoring Summary Response : {"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]}
+
+Components ID = PVWA
+Components Name = PVWA
+
+====================== 
+New Authentication Response 
+Token : MjE4NDYyM2UtMzgwOC00Njk0LTlmZmMtMTcxY2U5OGVmOGFiO0M1MkY0NEYwOEUyMkQyQ0U7MDAwMDAwMDIxMDkwOEE2NjUzMzFCN0NDMjJCNzZCNjdBODY5NUQ5MTk0RTU3QjdCNDI5Q0I0NTA0MDc2RjJBRDIzRjRCQ0U3MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PVWAAppUser","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609285981}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = CPM
+Components Name = CPM
+
+====================== 
+New Authentication Response 
+Token : MzQ4ZmI0N2QtNzMwMS00Y2UzLWFkYjgtNDkyNGExZjQwNTlmO0VCM0I1OTA3QzQ5RTg0RjY7MDAwMDAwMDIyM0JGQ0I4QkM3QjRDMTM1NTNGNEU0Q0Y0RTNBRkRDMUFEOThDOTI0RjdEMDM1RkZBMUJBNjYzMTM2OEYyRDMzMDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PasswordManager","ComponentVersion":"12.0.0.3","ComponentSpecificStat":-1,"IsLoggedOn":true,"LastLogonDate":1609286012}]}
+
+Components IP = 10.0.0.7
+Components Connected? = true
+
+
+Components ID = SessionManagement
+Components Name = PSM/PSMP
+
+====================== 
+New Authentication Response 
+Token : MjU1NGNlNDEtY2IyNC00ZTkwLThiYTMtODAzODI5YzdkNjFkO0VDM0M0MDEwQjVENDEzRkY7MDAwMDAwMDJBRTgxNjc3ODNEMTVCQzFGRDc4QTcxREEzQUIxMzZBQTYxNjQ2MTZFREJFRDJFQkM5MjU0MEI0Qjc4N0EzRUY4MDAwMDAwMDA7
+ Health Monitoring Details Response Code : 200
+Monitoring  Details Response : {"ComponentsDetails":[{"ComponentIP":"10.0.0.7","ComponentUserName":"PSMApp_11ec62d","ComponentVersion":"11.2.0.11","ComponentSpecificStat":-1,"IsLoggedOn":false,"LastLogonDate":1609074703}]}
+
+Components IP = 10.0.0.7
+Components Connected? = false
+Create ServiceNow Incident 
+ServiceNow Response is : 
+{"result":{"parent":"","made_sla":"true","caused_by":"","watch_list":"","upon_reject":"cancel","sys_updated_on":"2020-12-30 01:05:18","child_incidents":"0","hold_reason":"","approval_history":"","number":"INC0010108","resolved_by":"","sys_updated_by":"admin","opened_by":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user/6816f79cc0a8016401c5a33be04be441","value":"6816f79cc0a8016401c5a33be04be441"},"user_input":"","sys_created_on":"2020-12-30 01:05:18","sys_domain":{"link":"https://dev63803.service-now.com/api/now/v1/table/sys_user_group/global","value":"global"},"state":"1","sys_created_by":"admin","knowledge":"false","order":"","calendar_stc":"","closed_at":"","cmdb_ci":"","delivery_plan":"","contract":"","impact":"3","active":"true","work_notes_list":"","business_service":"","priority":"5","sys_domain_path":"/","rfc":"","time_worked":"","expected_start":"","opened_at":"2020-12-30 01:05:18","business_duration":"","group_list":"","work_end":"","caller_id":"","reopened_time":"","resolved_at":"","approval_set":"","subcategory":"","work_notes":"","short_description":"","close_code":"","correlation_display":"","delivery_task":"","work_start":"","assignment_group":"","additional_assignee_list":"","business_stc":"","description":"","calendar_duration":"","close_notes":"","notify":"1","service_offering":"","sys_class_name":"incident","closed_by":"","follow_up":"","parent_incident":"","sys_id":"7173924fdb11e0104d54560868961911","contact_type":"","reopened_by":"","incident_state":"1","urgency":"3","problem_id":"","company":"","reassignment_count":"0","activity_due":"","assigned_to":"","severity":"3","comments":"","approval":"not requested","sla_due":"","comments_and_work_notes":"","due_date":"","sys_mod_count":"0","reopen_count":"0","sys_tags":"","escalation":"0","upon_approval":"proceed","correlation_id":"","location":"","category":"inquiry"}}
+
+
+Components ID = PTA
+Components Name = PTA
+
+====================== 
+New Authentication Response 
+Token : YjdjMDM1NzAtYTgzNi00MzYxLTg2YzEtYThjMTg3MmZmOTM1O0EwRkFENDlEREUxRUM5REY7MDAwMDAwMDJDODVBQUM1RUMwMEQ0M0I4QkJFQTM1MzQwMjQyQkMyMzI4RUJDNjFBRTAxRjY1MENFQjAxQTk5MUZGMDYzMTFEMDAwMDAwMDA7
+
+The Vault IP is = 10.0.0.6
+Is Vault is Active? = true
+
+Token : ZmJkY2JmZDEtZGZlMi00NjkxLTllYTMtOGFlNWM3ZjI0NDlhOzEzQTUzREVCNDNBOUJFRUY7MDAwMDAwMDJBQjUwRTMxMkM5NUQ3NUM2RTk2RkNDN0Y2NkYxRUM1RUEzMjA0RUExNzRBNTdFMDFDNjMwQzFDODYyQ0VDRDM1MDAwMDAwMDA7
+Log Off Response Code : 200
+Log off Response : {"LogoffUrl":""}
+Response -----------------<200,{"Components":[{"ComponentID":"PVWA","ComponentName":"PVWA","Description":"Active Users","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"CPM","ComponentName":"CPM","Description":"Managed Accounts","ConnectedComponentCount":1,"ComponentTotalCount":1,"ComponentSpecificStat":8},{"ComponentID":"SessionManagement","ComponentName":"PSM/PSMP","Description":"Concurrent Sessions","ConnectedComponentCount":0,"ComponentTotalCount":1,"ComponentSpecificStat":0},{"ComponentID":"PTA","ComponentName":"PTA","Description":"Monitored Targets","ConnectedComponentCount":0,"ComponentTotalCount":0,"ComponentSpecificStat":0}],"Vaults":[{"IP":"10.0.0.6","Role":"Primary","IsLoggedOn":true}]},[Cache-Control:"no-cache, no-store, must-revalidate", Pragma:"no-cache", Content-Type:"application/json; charset=utf-8", Expires:"-1", Set-Cookie:"CA22222=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA11111=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA55555=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "CA33333=; path=/PasswordVault/; SameSite=Strict; secure; HttpOnly", "mobileState=Desktop; path=/PasswordVault/; SameSite=None; secure; HttpOnly", X-FRAME-Options:"SAMEORIGIN", Strict-Transport-Security:"max-age=3159600;includeSubdomains;", "max-age=31536000; includeSubDomains", X-XSS-Protection:"1; mode=block", X-Content-Type-Options:"nosniff", X-UA-Compatible:"IE=EmulateIE8", Access-Control-Expose-Headers:"Warning", Date:"Wed, 30 Dec 2020 01:05:17 GMT", Content-Length:"721"]>
