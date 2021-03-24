@@ -37,10 +37,10 @@ This is an agent based solution and this is recommended for business critical ap
 
 ![Eclipse](/assets/images/blogs/cp/pvwa.png)
 
-2)  for this demo I've Created a simple Application and enabled OSUser authentication (corpad\ndhanaraj) and configured IP Address Restriction. Meaning the password will be released to the server I mentioned and for the user corpad\ndhanaraj. Password cannot be accessed by other users other than the configured user(s) list.
+2)  For this demo I've Created a simple Application and enabled OSUser authentication (corpad\ndhanaraj) and configured IP Address Restriction. Meaning the password will be released to the server I mentioned and for the user corpad\ndhanaraj. Password cannot be accessed by other users other than the configured user(s) list.
 
 ![Eclipse](/assets/images/blogs/cp/app.png)
-In simple terms, the whole PAS Orchestrator can be deployed in a single server (Unix/Linux or Windows) and this will take care your entire PAS components on the target windows machines. 
+
 
 3) For this demo I've onboarded an Active Directory account into Password Vault and it is completely managed by CyberArk. I've provided required access to application I've created in the step 1 and retrieve and list access to provider user as shown in the below screenshot
 
