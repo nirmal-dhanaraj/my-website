@@ -1,0 +1,1 @@
+CLIPasswordSDK.exe GetPassword /p AppDescs.AppID=WIN-DOM-JavaApp /p Query="Safe=WIN-DOM-SVC;Folder=Root;Object=svc_mon_acc" /o Password
