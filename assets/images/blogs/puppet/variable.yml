@@ -1,0 +1,11 @@
+- !variable
+  id: db-password
+  annotations:
+    description: DB Instance Secret
+
+- !permit
+  role: !host srv/nix/node-01
+  privileges:
+    - read
+    - execute
+  resource: !variable db-password
