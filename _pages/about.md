@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Nirmal"
 link: https://cyberark-customers.force.com/s/profile/00550000007BAlOAAW
 ---
 
@@ -10,7 +10,7 @@ Drawing on his 14 years of experience in the IT industry, Nirmal offers consider
 
 He has been serving customers in Australia,USA, Canada, and APAC regions. In his entire career, he has been involved in Consulting, Architecture, Design, Development activities in cyber security domain.
 
-Nirmal is proficient in CyberArk PAM, Azure & Sailpoint Identity & Access Management and implemented Identity & security solution for various organizations across the world.
+Nirmal is proficient in CyberArk PAM, Azure AD & Sailpoint Identity & Access Management and implemented Identity & security solution for various organizations across the world.
 
 
 Nirmal is also a CyberArk Guardian and one of the leading contributors in CyberArk Technical forum.
