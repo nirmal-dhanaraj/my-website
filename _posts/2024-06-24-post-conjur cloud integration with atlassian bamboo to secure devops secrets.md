@@ -58,22 +58,32 @@ Step 2.5)
 ![Eclipse](/assets/images/blogs/bamboo/wl5.png)
 <br>
 ## Implementation - Part2
-<b>Step 3.1) Bamboo Setup :</b>
-Ensure that the Secret Managers for Bamboo plugin is successfully installed on your Bamboo server. Once installed, This will add a 'Secret Managers' menu item to the bottom of the Build Resources section as shown in the below picture. 
+<b>Step 3.1) Bamboo Setup & Configure Plugin :</b>
+Ensure that the Secret Managers for Bamboo plugin is successfully installed on your Bamboo server. Once installed, This will add a 'Secret Managers' menu item to the bottom of the Build Resources section as shown in the below picture.
+And then select ‘CyberArk Conjur’ from the ‘Add New Manager’ drop-down and update the host details we have noted earlier as shown the below picture. Here you have the option to Test and validate the Workload connectivity between Bamboo and Conjur Cloud. We will save the details after the successful validations.
 <br>
 ![Eclipse](/assets/images/blogs/bamboo/AB1.png)
 <br><br>
-<b>Step 3.2) Configure CyberArk Conjur Plugin :</b>
-Now select 'CyberArk Conjur' from the 'Add New Manager' drop-down and update the host details we have noted earlier as shown the below picture. Here you have the option to Test and validate the Workload connectivity between Bamboo and Conjur Cloud. We will save the details after the successful validations.
+<b>Step 3.2) Define Plan Secrets Variables :</b>
+For this demo I have created a new Bamboo Plan with a Script Task where Variables can be used to make Secret values available when building plans in Bamboo. 
+```ruby
+Here we have to use the following format when referencing a variable: ${bamboo.variableName}
+There are two Bmaboo variables refering in this demo which are DB_address & DB_password
+```
+
 <br>
 ![Eclipse](/assets/images/blogs/bamboo/AB2.png)
 <br><br>
-Step 3.3) 
+<b>Step 3.3) Map Plan variables with Conjur Variables :</b>
+These Plan variables in Bamboo provide a powerful way to manage and customize build processes, making continuous integration and deployment more efficient and manageable. These Plan varibles will be used to map with Conjur Variables. In this demo, I have defined two Conjur Secrets as a Plan variable using a syntax below
+```ruby
+%<conjur:<conjur-secret-path>%
+```
 <br>
 ![Eclipse](/assets/images/blogs/bamboo/AB3.png)
 <br><br>
 <b>Step 3.4) Test and Validate :</b>
-When executing this plan, the logs will reference the Secrets Resolver pre-build action, which dynamically resolves secrets via CyberArk Conjur mSecrets anager Platform. The actual secret values exist in memory only for the duration of the build or deployment.
+When executing this plan, the logs will reference the Secrets Resolver pre-build action, which dynamically resolves secrets via CyberArk Conjur mSecrets anager Platform. The actual secret values exist in memory only for the duration of the build or deployment. An important thing here is that this integration guarantees that secrets are never exposed in the logs
 <br>
 ![Eclipse](/assets/images/blogs/bamboo/AB4.png)
 <br> <br>
