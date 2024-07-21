@@ -1,7 +1,7 @@
 ---
 title: "Atlassian's Bamboo Integration with CyberArk's Conjur Cloud Secrets Manager"
 comments: true
-last_modified_at: 2021-05-20T07:07:02-05:00
+last_modified_at: 2024-07-21T07:07:02-05:00
 show_date: true
 related: true
 share: true
@@ -14,15 +14,15 @@ tags:
   - CI/CD & DevOps
   - Cyberark Identity Security Platform 
 ---
-
+ <br>
+![Eclipse](/assets/images/blogs/bamboo/bd.png)
+<br>
 
 In this post, I'll guide you through the integration of Conjur Cloud with the Atlassian Bamboo CI/CD pipeline. This integration plays a crucial role in enhancing the security of Bamboo workloads by enabling them to securely retrieve credentials from Conjur Cloud. By leveraging Conjur's robust secrets management capabilities, Bamboo can effectively manage and protect sensitive information throughout the CI/CD process. I'll cover how to set up this integration, configure Bamboo to interact with Conjur Cloud securely, and highlight the benefits of centralizing secrets management for your CI/CD workflows.
 
-
-## Prerequisite
+## Prerequisites
 - Secret managers plugin must be installed and enabled on the Bamboo administration Portal. 
 - You must have active Conjur Cloud Tenant from CyberArk Identity Platform.
-
 ## Implementation - Part1
 Step 1 : As the fitst step I'm uploading the below policy into Conjur Cloud to create a specific Policy structure which will be latter used to keep all the DevOps Workloads. You need to have Conjur admin role in Identity to load the below policy via the CLI tools. You can also automate this policy upload via REST APIs. 
 ```ruby
@@ -98,4 +98,3 @@ Discover how to fortify your Atlassian Bamboo CI/CD pipelines with robust secret
 Integrating this approach into Bamboo Specs ensures that credentials remain protected and never exposed in source control. Secrets are dynamically resolved within Conjur Cloud, ensuring they exist in memory only for the duration required during builds or deployments. This method guarantees that secret values are consistently obfuscated in logs, bolstering your pipeline's overall security posture.
 
 Explore these strategies to elevate your Bamboo workflows with advanced secrets management and robust security practices.
-
