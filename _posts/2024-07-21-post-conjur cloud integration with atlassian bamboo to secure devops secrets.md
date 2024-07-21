@@ -15,17 +15,17 @@ tags:
   - Cyberark Identity Security Platform 
 ---
 
-In this post, I'll guide you through the integration of Conjur Cloud with the Atlassian Bamboo CI/CD pipeline. This integration plays a crucial role in enhancing the security of Bamboo workloads by enabling them to securely retrieve credentials from Conjur Cloud. By leveraging Conjur's robust secrets management capabilities, Bamboo can effectively manage and protect sensitive information throughout the CI/CD process. I'll cover how to set up this integration, configure Bamboo to interact with Conjur Cloud securely, and highlight the benefits of centralizing secrets management for your CI/CD workflows.
-
-<br>
+ <br>
 ![Eclipse](/assets/images/blogs/bamboo/bd.png)
 <br><br>
+In this post, I'll guide you through the integration of Conjur Cloud with the Atlassian Bamboo CI/CD pipeline. This integration plays a crucial role in enhancing the security of Bamboo workloads by enabling them to securely retrieve credentials from Conjur Cloud. By leveraging Conjur's robust secrets management capabilities, Bamboo can effectively manage and protect sensitive information throughout the CI/CD process. I'll cover how to set up this integration, configure Bamboo to interact with Conjur Cloud securely, and highlight the benefits of centralizing secrets management for your CI/CD workflows.
 
 ## Prerequisites
 - Secret managers plugin must be installed and enabled on the Bamboo administration Portal. 
 - You must have active Conjur Cloud Tenant from CyberArk Identity Platform.
 ## Implementation - Part1
 Step 1 : As the fitst step I'm uploading the below policy into Conjur Cloud to create a specific Policy structure which will be latter used to keep all the DevOps Workloads. You need to have Conjur admin role in Identity to load the below policy via the CLI tools. You can also automate this policy upload via REST APIs. 
+
 ```ruby
 # conjur policy load -f C:\Tools\cc-cli-1.1.2\Conjur_Policies\Bamboo\branch-data.yaml -b data
 
@@ -36,7 +36,6 @@ Step 1 : As the fitst step I'm uploading the below policy into Conjur Cloud to c
     - !policy
       id: cicd-apps
 ```
-
 Step 2 : Now, we need to create and define Workloads in Conjur Cloud that represent the actual DevOps workload. These Workloads will be used to authenticate as hosts and access secrets. Workloads can be created using various methods such as the UI or CLI. In this example, we'll demonstrate how to create a Bamboo DevOps workload via the Conjur Cloud Portal and how to grant permissions to Privilege Cloud Safes where the actual secrets are securly stored. <br> <br>
 Step 2.1) Log in to Conjur Cloud Portal and go Resources and then Create new Workload via Workload builder window. I'll choose Workload type as "Other" for this Bamboo workload and press "Next" Button.
 <br>
