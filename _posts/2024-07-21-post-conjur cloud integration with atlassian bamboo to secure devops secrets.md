@@ -1,7 +1,7 @@
 ---
 title: "Atlassian's Bamboo Integration with CyberArk's Conjur Cloud Secrets Manager"
 comments: true
-last_modified_at: 2024-07-21T07:07:02-05:00
+last_modified_at: 2024-07-20T07:07:02-05:00
 show_date: true
 related: true
 share: true
@@ -14,11 +14,12 @@ tags:
   - CI/CD & DevOps
   - Cyberark Identity Security Platform 
 ---
- <br>
-![Eclipse](/assets/images/blogs/bamboo/bd.png)
-<br>
 
 In this post, I'll guide you through the integration of Conjur Cloud with the Atlassian Bamboo CI/CD pipeline. This integration plays a crucial role in enhancing the security of Bamboo workloads by enabling them to securely retrieve credentials from Conjur Cloud. By leveraging Conjur's robust secrets management capabilities, Bamboo can effectively manage and protect sensitive information throughout the CI/CD process. I'll cover how to set up this integration, configure Bamboo to interact with Conjur Cloud securely, and highlight the benefits of centralizing secrets management for your CI/CD workflows.
+
+<br>
+![Eclipse](/assets/images/blogs/bamboo/bd.png)
+<br><br>
 
 ## Prerequisites
 - Secret managers plugin must be installed and enabled on the Bamboo administration Portal. 
